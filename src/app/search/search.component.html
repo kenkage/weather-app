@@ -1,0 +1,9 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <form class="form-inline my-2 my-lg-0"  style="padding-top: 5%;padding-left: 34%;">
+        <!-- <input type="text" [(ngModel)]="locationName" class="form-control mr-sm-2" name="locationName"  placeholder="Search"> -->
+        <input class="form-control" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="&#61442;  Start searching for a hero by id or name or country">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="getWeather()">Search</button>
+    </form>
+    </div>
+  </nav>
